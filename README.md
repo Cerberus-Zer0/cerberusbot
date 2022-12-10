@@ -29,6 +29,7 @@ git clone https://github.com/Cerberus_Zer0/cerberusbot
 Password = Personal access tokens (GitHub > Settings > Developer)
 
 Create .env file
+PREFIX = "!"
 TOKEN = "" [this is your discord bot token]
 GOOGLE_API_KEY = "" [youtube api key]
 SPOTIFY_CLIENT_ID = ""
