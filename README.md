@@ -24,6 +24,12 @@ sudo apt install npm
 Install discord.js
 sudo npm install --legacy-peer-deps --save discord.js
 
+Install FFMPEG
+sudo apt install ffmpeg
+
+Install Youtube-dl
+sudo snap install youtube-dl
+
 Clone from GitHub
 git clone https://github.com/Cerberus_Zer0/cerberusbot
 Password = Personal access tokens (GitHub > Settings > Developer)
@@ -37,3 +43,7 @@ SPOTIFY_CLIENT_SECRET = ""
 
 Start it up?
 node index.js
+
+Notes:
+I had to uninstall and reinstall ytdl-core
+npm uninstall ytdl-core && npm install --save ytdl-core
